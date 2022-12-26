@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './ContactForm.module.scss';
 import { BsFacebook } from 'react-icons/bs';
+import { MdEmail } from 'react-icons/md';
 
 const ContactForm = () => {
   return (
@@ -24,7 +25,7 @@ const ContactForm = () => {
             href='mailto: @mateuszmanczak16@gmail.com'
             target='_blank'
             rel='noreferrer'>
-            mateuszmanczak16@gmail.com
+            <MdEmail /> mateuszmanczak16@gmail.com
           </a>
         </div>
       </div>
