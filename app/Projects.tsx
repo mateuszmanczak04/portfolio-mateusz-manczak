@@ -12,7 +12,7 @@ const Projects = () => {
             className={styles.project}
             target='_blank'
             rel='noreferrer'>
-            <h5>Strona reklamowa Makeup</h5>
+            <h5>Strona reklamowa Make-up</h5>
             <p>Użyte technologie: NextJS, ReactJS, CSS, MongoDB, NodeJS</p>
           </a>
         </div>
