@@ -1,0 +1,72 @@
+.container {
+  background: var(--black);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 64px 16px;
+
+  .content {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+    h2 {
+      color: var(--primary);
+      text-align: center;
+
+      &::selection {
+        color: var(--secondary);
+        background: none;
+      }
+    }
+
+    .form {
+      width: 100%;
+      max-width: 480px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      input,
+      textarea {
+        border: none;
+        outline: none;
+        padding: 8px 16px;
+        font-size: 18px;
+        resize: none;
+      }
+
+      button {
+        border: none;
+        outline: none;
+        padding: 8px 16px;
+        font-size: 18px;
+        background: var(--primary);
+        transition: 0.2s ease;
+        cursor: pointer;
+
+        &:hover {
+          background: var(--secondary);
+          transform: translateY(-2px);
+        }
+
+        &:active {
+          transform: none;
+        }
+      }
+    }
+
+    .other {
+      a {
+        color: white;
+
+        svg {
+          color: white;
+        }
+      }
+    }
+  }
+}

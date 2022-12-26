@@ -1,0 +1,34 @@
+.container {
+  border-top: 8px solid var(--primary);
+  border-bottom: 8px solid var(--primary);
+  width: 100vw;
+  padding: 64px 16px;
+  display: flex;
+  justify-content: center;
+  background: white;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    max-width: 1000px;
+
+    h1 {
+      width: 100%;
+      text-align: center;
+    }
+
+    p {
+      width: 100%;
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: auto;
+    }
+  }
+}
