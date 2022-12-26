@@ -20,6 +20,12 @@ const ContactForm = () => {
             rel='noreferrer'>
             <BsFacebook /> Facebook
           </a>
+          <a
+            href='mailto: @mateuszmanczak16@gmail.com'
+            target='_blank'
+            rel='noreferrer'>
+            mateuszmanczak16@gmail.com
+          </a>
         </div>
       </div>
     </section>

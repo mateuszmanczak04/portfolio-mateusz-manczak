@@ -29,6 +29,26 @@
       display: flex;
       flex-direction: column;
       gap: 16px;
+      position: relative;
+      display: none;
+
+      &::after {
+        content: 'Formularz jeszcze nie działa. Skontaktuj się ze mną poprzez facebooka lub e-mail';
+        position: absolute;
+        left: -16px;
+        top: -16px;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 0, 0, 0.9);
+        padding: 16px;
+        z-index: 5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        color: var(--black);
+        text-shadow: var(--shadow);
+      }
 
       input,
       textarea {
@@ -60,8 +80,15 @@
     }
 
     .other {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+
       a {
         color: white;
+        display: flex;
+        align-items: center;
 
         svg {
           color: white;
