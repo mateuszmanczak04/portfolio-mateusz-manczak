@@ -13,7 +13,7 @@ const Projects = () => {
             target='_blank'
             rel='noreferrer'>
             <h5>Strona reklamowa: Make-up</h5>
-            <p>Użyte technologie: NextJS, ReactJS, CSS, MongoDB, NodeJS</p>
+            <p>Użyte technologie: NextJS, CSS, MongoDB, NodeJS</p>
           </a>
           <a
             href='https://mateuszmanczak04.github.io/korepetycje/'
@@ -22,6 +22,17 @@ const Projects = () => {
             rel='noreferrer'>
             <h5>Strona reklamowa: Korepetycje</h5>
             <p>Użyte technologie: ReactJS, CSS</p>
+          </a>
+          <a
+            href='https://calendar-app-silk.vercel.app'
+            className={styles.project}
+            target='_blank'
+            rel='noreferrer'>
+            <h5>Aplikacja Webowa - Kalendarz</h5>
+            <p>
+              Użyte technologie: NextJS, Typescript, NextAuth, framer-motion,
+              MongoDB, CSS, NodeJS
+            </p>
           </a>
         </div>
       </div>
